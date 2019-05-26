@@ -7,7 +7,7 @@ all: $(ALL)
 %.pdf: %.tex
 	latexmk -pdf $<
 
-%.html: %.tex
+%.html: %.tex sakura.cfg
 	htlatex $< "sakura,charset=utf-8" " -cunihtf -utf8"
 
 .PHONY: clean
