@@ -12,7 +12,7 @@ all: $(ALL)
 
 .PHONY: deploy
 deploy:
-	rclone sync -I -P --include '**.{tex,pdf,html,css,md,cfg}' . fm:public/
+	rclone sync -I -P --include '**.{tex,pdf,html,css,md,cfg,asc}' . fm:public/
 
 .PHONY: clean
 clean:
