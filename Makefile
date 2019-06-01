@@ -1,18 +1,17 @@
-tex := $(wildcard *.tex)
-ALL := $(tex:.tex=.pdf) $(tex:.tex=.html)
+md = $(wildcard *.md)
+ALL = $(md:.md=.html)
+CSS = normalize.css sakura-dark.css
 
 .PHONY: all
 all: $(ALL)
 
-%.pdf: %.tex
-	latexmk -pdf $<
-
-%.html: %.tex sakura.cfg
-	htlatex $< "sakura,charset=utf-8" " -cunihtf -utf8"
+%.html: %.md $(CSS)
+	mkd2html -header '<meta name="viewport" content="width=device-width, initial-scale=1.0">' \
+		$(addprefix -css ,$(CSS)) $<
 
 .PHONY: deploy
 deploy:
-	rclone sync -I -P --include '**.{tex,pdf,html,css,md,cfg,asc}' . fm:public/
+	rclone sync -I -P --include '**.{md,html,css,asc}' . fm:public/
 
 .PHONY: clean
 clean:
