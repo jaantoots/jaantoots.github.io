@@ -31,7 +31,7 @@ Some useful links:
 I like well-written, efficient and simple tools. I loathe bloat (incl.
 "design", JavaScript, etc.) and proprietary software.
 
-Stuff I like, use or care about:
+Interesting pages:
 
 - [ASCII ribbon campaign](http://www.asciiribbon.org/)
 - [In the Beginning was the Command Line][cli] and
