@@ -5,9 +5,10 @@ CSS = normalize.css sakura-dark.css
 .PHONY: all
 all: $(ALL)
 
+HEADER = \
+'<meta name="viewport" content="width=device-width, initial-scale=1.0">'
 %.html: %.md $(CSS)
-	mkd2html -header '<meta name="viewport" content="width=device-width, initial-scale=1.0">' \
-		$(addprefix -css ,$(CSS)) $<
+	mkd2html -header $(HEADER) $(addprefix -css ,$(CSS)) $<
 
 .PHONY: deploy
 deploy:
