@@ -29,17 +29,19 @@ Some useful links:
 ## About other things
 
 I like well-written, efficient and simple tools. I loathe bloat (incl.
-"design", JavaScript, etc.) and proprietary software.
+"design", JavaScript, etc.) and proprietary crap.
 
-Interesting pages:
+Mandatory reading:
 
 - [ASCII ribbon campaign](http://www.asciiribbon.org/)
 - [In the Beginning was the Command Line][cli] and
   [The Command Line in 2004][cli2004]
 - [GUIs Considered Harmful][guis]
+- [Motherfucking Website][mfws]
 
 [cli]: https://web.archive.org/web/20180218045352/http://www.cryptonomicon.com/beginning.html
 [cli2004]: http://garote.bdmonkeys.net/commandline/index.html
 [guis]: http://porkmail.org/era/unix/guis.txt
+[mfws]: http://motherfuckingwebsite.com/
 
 [898F 754D C9C8 48CD AC4D  3302 9AE2 2DC9 DF64 96F6]: 898F754DC9C848CDAC4D33029AE22DC9DF6496F6.asc
