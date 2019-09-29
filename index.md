@@ -24,14 +24,20 @@ Technologies](http://kingdom.garden/).
 
 Some useful links:
 
-- [sourcehut](https://git.sr.ht/~jaan/)
 - [GitHub](https://github.com/jaantoots)
 - [LinkedIn](https://www.linkedin.com/in/jaantoots/) (poorly maintained)
+- [sourcehut](https://git.sr.ht/~jaan/)
 
 ## About other things
 
 I like well-written, efficient and simple tools. I loathe bloat (incl.
 "design", JavaScript, etc.) and proprietary crap.
+
+Please [use plaintext email](https://useplaintext.email/):
+
+> HTML emails are a security nightmare, are mostly used for advertising to you
+> and tracking you, are less accessible for many users, and don't offer
+> anything especially great for it.
 
 Mandatory reading:
 
