@@ -6,7 +6,7 @@ all: $(ALL)
 
 META = '<meta name="viewport" content="width=device-width">'
 ICON = '<link rel=icon href=data:,>'
-STYLE = '<style>body {max-width: 70ch; padding: 2ch; margin: auto;}</style>'
+STYLE = '<style>body {max-width: 70ch; padding: 2ch; margin: auto; font: 11pt sans;}</style>'
 %.html: %.md
 	mkd2html -header $(META) -header $(ICON) -header $(STYLE) $<
 

@@ -1,12 +1,12 @@
 % Jaan Toots
 % Jaan Toots
-% 2019-06-01
+% 2019-09-29
 
 # Jaan Toots
 
 jaan [at] jaan.xyz  
 [898F 754D C9C8 48CD AC4D  
-3302 9AE2 2DC9 DF64 96F6][]
+3302 9AE2 2DC9 DF64 96F6](898F754DC9C848CDAC4D33029AE22DC9DF6496F6.asc)
 
 This is my personal homepage. This page (and any others, if they ever exist)
 also have a plain text version available, e.g. [index.md](index.md).
@@ -51,5 +51,3 @@ Mandatory reading:
 [cli2004]: http://garote.bdmonkeys.net/commandline/index.html
 [guis]: http://porkmail.org/era/unix/guis.txt
 [mfws]: http://motherfuckingwebsite.com/
-
-[898F 754D C9C8 48CD AC4D  3302 9AE2 2DC9 DF64 96F6]: 898F754DC9C848CDAC4D33029AE22DC9DF6496F6.asc
