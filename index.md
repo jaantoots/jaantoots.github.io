@@ -16,9 +16,11 @@ also have a plain text version available, e.g. [index.md](index.md).
 I read for the Natural Sciences Tripos for three years before switching to the
 Mathematical Tripos for Part III at Trinity College, Cambridge. I studied
 mostly Theoretical Physics but developed an interest for deep learning, and
-after a brief period at Oxford (dark blue isn't really my colour) I am now
-working with neural networks in the Machine Learning team at
-[Veriff](https://veriff.me/).
+after a brief period at Oxford (dark blue isn't really my colour) moved out
+from academia. I then spent about half a year working with neural networks in
+the Machine Learning team at [Veriff](https://veriff.me/). I am currently
+building software for autonomous lawnmowers at [Kingdom
+Technologies](http://kingdom.garden/).
 
 Some useful links:
 
