@@ -10,8 +10,8 @@ jaan [at] jaan.xyz
 [898F 754D C9C8 48CD AC4D  
 3302 9AE2 2DC9 DF64 96F6](898F754DC9C848CDAC4D33029AE22DC9DF6496F6.asc)
 
-This is my personal homepage. This page (and any others, if they ever exist)
-also have a plain text version available, e.g. [index.md](index.md).
+This is my personal homepage. This site is also available in plain text as
+[JSON](index.json) containing the markdown source.
 
 ## About me
 

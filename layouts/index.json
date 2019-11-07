@@ -1,0 +1,1 @@
+{{ dict "title" .Site.Title "base_url" .Site.BaseURL "content" .RawContent | jsonify }}
