@@ -20,9 +20,9 @@ Mathematical Tripos for Part III at Trinity College, Cambridge. I studied
 mostly Theoretical Physics but developed an interest for deep learning, and
 after a brief period at Oxford (dark blue isn't really my colour) moved out
 from academia. I then spent about half a year working with neural networks in
-the Machine Learning team at [Veriff](https://veriff.me/). I am currently
-building software for autonomous lawnmowers at [Kingdom
-Technologies](http://kingdom.garden/).
+the Machine Learning team at [Veriff](https://veriff.me/). I was briefly the
+Head of Software at [Kingdom Technologies](http://kingdom.garden/) building
+autonomous lawnmowers, and am now looking for new challenges.
 
 Some useful links:
 
