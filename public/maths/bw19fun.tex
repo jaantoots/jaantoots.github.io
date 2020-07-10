@@ -1,0 +1,73 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb,latexsym}
+\usepackage{hyperref}
+\usepackage[british]{babel}
+\usepackage[useregional]{datetime2}
+
+\newcommand{\reals}{\ensuremath{\mathbb{R}}}
+\newcommand{\ints}{\ensuremath{\mathbb{Z}}}
+\newcommand{\nats}{\ensuremath{\mathbb{N}}}
+\newcommand{\rats}{\ensuremath{\mathbb{Q}}}
+
+\title{Baltic Way 2019 training: functional equations}
+\author{\href{mailto:jaan@jaan.xyz}{Jaan Toots} \\
+\url{https://web.jaan.xyz/maths/}}
+\date{\DTMdate{2019-11-14}}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+
+\item \emph{(BW 2010)} Find all functions $f : \reals \to \reals$ such that
+$$ f(x^2) +f(xy) =f(x)f(y) +yf(x) +xf(x+y) $$ for all $x,y \in \reals$.
+
+\item \emph{(BW 2012)} Find all functions $f : \reals \to \reals$ for
+which $$f(x+y) = f(x-y) + f(f(1-xy))$$ holds for all real numbers $x$ and $y$.
+
+\item \emph{(Hong Kong 2020 TST 2 Q4)} Find all real-valued functions $f$
+defined on the set of real numbers such that $$f(f(x)+y)+f(x+f(y))=2f(xf(y))$$
+for any real numbers $x$ and $y$.
+
+\item \emph{(SL 2011)} Determine all pairs $(f, g)$ of functions from the set
+of real numbers to itself that satisfy $$g(f(x+y)) = f(x) + (2x+y)g(y)$$ for
+all real numbers $x$ and $y$.
+
+\item \emph{(BW 2011)} Let $f : \ints \to \ints$ be a function such that, for
+all integers $x$ and $y$, the following holds: $$ f(f(x)-y) = f(y)-f(f(x)) $$
+Show that $f$ is bounded.
+
+\item \emph{(Tournament of Towns 1983)} Let $f: \nats \to \nats$ be a strictly
+increasing function such that $f(f(n))=3n$ for all natural numbers $n$. Find
+$f(2001)$.
+
+\item \emph{(APMO 2011)} Determine all functions $f : \reals \to \reals$ where
+\reals{} is the set of all real numbers, satisfying the following two conditions:
+\begin{enumerate}
+\item There exists a real number $M$ such that for every real number $x$, $f(x)
+< M$ is satisfied.
+\item For every pair of real numbers $x$ and $y$, $f(xf(y))+yf(x) =
+xf(y)+f(xy)$ is satisfied.
+\end{enumerate}
+
+\item \emph{(SL 2013)} Let $\rats_{>0}$ be the set of positive rational
+numbers. Let $f : \rats_{>0} \to \reals$ be a function satisfying the
+conditions $$f(x)f(y) \ge f(xy) \quad\text{and}\quad f(x+y) \ge f(x)+f(y)$$ for
+all $x,y \in \rats_{>0}$. Given that $f(a) = a$ for some rational $a > 1$,
+prove that $f(x) = x$ for all $x \in \rats_{>0}$.
+
+%\item \emph{(SL 2012)} Let $f : \nats \to \nats$ be a function, and let $f^m$
+%be $f$ applied $m$ times. Suppose that for every $n \in \nats$ there exists a
+%$k \in \nats$ such that $f^{2k}(n) = n+k$, and let $k_n$ be the smallest such
+%$k$. Prove that the sequence $k_1, k_2, \dots$ is unbounded.
+
+\end{enumerate}
+
+\end{document}
