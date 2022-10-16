@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Posts
 author: Jaan Toots
 ---
 
